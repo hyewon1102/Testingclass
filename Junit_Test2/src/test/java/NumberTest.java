@@ -13,7 +13,7 @@ public class NumberTest {
 	    @Test  
 	    public void testNumberInt() {  
 	        Number num = new Number(10);  
-	        assertEquals(10, num.getValue());  
+	        assertEquals(20, num.getValue());  
 	    }  
 	  
 	    @Test  
