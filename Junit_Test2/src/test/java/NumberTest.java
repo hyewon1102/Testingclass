@@ -13,7 +13,7 @@ public class NumberTest {
 	    @Test  
 	    public void testNumberInt() {  
 	        Number num = new Number(10);  
-	        assertEquals(20, num.getValue());  
+	        assertEquals(10, num.getValue());  
 	    }  
 	  
 	    @Test  
@@ -44,5 +44,12 @@ public class NumberTest {
 	    public void testGetValue() {  
 	        Number num = new Number(20);  
 	        assertEquals(20, num.getValue());  
+	    }  
+	    
+	    
+	    @Test  
+	    public void testMultiply2() {  
+	        Number num = new Number(4);  
+	        assertEquals(16, num.multiply(4));  
 	    }  
 }
