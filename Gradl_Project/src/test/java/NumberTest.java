@@ -52,4 +52,9 @@ public class NumberTest {
         Number num = new Number(4);  
         assertEquals(16, num.multiply(4));  
     }  
+    @Test  
+    public void testMultiply3() {  
+        Number num = new Number(3);  
+        assertEquals(9, num.multiply(3));  
+    }  
 }
